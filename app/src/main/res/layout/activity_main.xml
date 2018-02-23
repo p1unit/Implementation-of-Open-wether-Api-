@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:padding="20dp">
+
+    <Spinner
+        android:id="@+id/changeCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:entries="@array/CityList" />
+
+    <TextView
+        android:id="@+id/city_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="City and country"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/updated_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city_field"
+        android:layout_centerHorizontal="true"
+        android:text="Last Updated"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+
+    <TextView
+        android:id="@+id/current_temperature_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/updated_field"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:text="Temp."
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/details_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clouds"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/current_temperature_field"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/humidity_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details_field"
+        android:text="Humidity"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/pressure_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/humidity_field"
+        android:layout_centerHorizontal="true"
+        android:text="Pressure"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/changeCity"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"
+        android:textColor="#ff1b1b"
+        android:textStyle="bold" />
+
+</RelativeLayout>

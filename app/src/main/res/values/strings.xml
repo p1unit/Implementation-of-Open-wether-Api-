@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">App</string>
+
+    <string-array name="CityList">
+        <item>Agra</item>
+        <item>Bangalore</item>
+        <item>Chennai</item>
+        <item>Hyderabad</item>
+        <item>Jaipur</item>
+        <item>Kanpur</item>
+        <item>Lucknow</item>
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Patna</item>
+
+    </string-array>
+</resources>
